@@ -209,7 +209,7 @@ export default function Header() {
 
                             flexGrow: 1,
                         }}>
-                        Ecomm
+                        DoShop
                     </Typography>
 
                     <SearchBar />
