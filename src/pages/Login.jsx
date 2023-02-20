@@ -14,7 +14,7 @@ import React from "react";
 import { display } from "@mui/system";
 import { useTheme } from "@mui/material";
 import { userAuth } from "../firebase/Auth";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { borders } from '@mui/system';
 
 
@@ -89,7 +89,7 @@ export default function Login() {
 
                     <Grid container justifyContent={'flex-end'} mt={2}>
                         <Grid item>
-                            <Link variant="body2" href="/register">New User ? Sign Up</Link>
+                            <NavLink variant="body2" to='/register' >New User ? Sign Up</NavLink>
                         </Grid>
 
                     </Grid>
