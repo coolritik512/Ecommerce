@@ -93,7 +93,6 @@ export default function Login() {
                         </Grid>
 
                     </Grid>
-
                 </form>
 
             </Box>
