@@ -4,7 +4,6 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import CssBaseline from "@mui/material/CssBaseline";
 import TextField from "@mui/material/TextField";
-import Link from "@mui/material/Link";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box"
 import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
@@ -14,7 +13,7 @@ import React from "react";
 import { display } from "@mui/system";
 import { useTheme } from "@mui/material";
 import { userAuth } from "../firebase/Auth";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink, useNavigate ,Link } from "react-router-dom";
 import { borders } from '@mui/system';
 
 
@@ -89,7 +88,7 @@ export default function Login() {
 
                     <Grid container justifyContent={'flex-end'} mt={2}>
                         <Grid item>
-                            <NavLink variant="body2"  to='/register' >New User ? Sign Up</NavLink>
+                            <Link variant="body2"  to='/register' >New User ? Sign Up</Link>
                         </Grid>
 
                     </Grid>
