@@ -8,11 +8,9 @@ import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import Typography from "@mui/material/Typography"
 import Container from "@mui/material/Container";
 import React from "react";
-import { display } from "@mui/system";
 import { useTheme } from "@mui/material";
 import { userAuth } from "../firebase/Auth";
 import { useNavigate , Link } from "react-router-dom";
-import { borders } from '@mui/system';
 
 export default function Register() {
     const theme = useTheme();
